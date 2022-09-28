@@ -1,9 +1,9 @@
 const factNum = require("../factorial");
-const rationNums = require("../ratio");
+const ratioNums = require("../ratio");
 
 const ratioAndFactorial = (num1, num2, num3) => {
-  const ratio = ratioOfTwoNumbers(num1, num2);
-  const factorial = factorialOfNumber(num3);
+  const ratio = ratioNums(num1, num2);
+  const factorial = factNum(num3);
 
   return { ratio, factorial };
 };
